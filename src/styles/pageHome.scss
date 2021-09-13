@@ -1,0 +1,16 @@
+@import './vars.scss';
+
+.homepage-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homepage-title {
+    font-weight: 200;
+    letter-spacing: 3px;
+    span {
+        color: $accentColor;
+        font-weight: 300;
+    }
+}
